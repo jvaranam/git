@@ -10,3 +10,6 @@ git pull {custom name} [branch name 'sandbox']
 git push origin [fork branch name]
 
 create a pull request.
+
+# terminal password change 
+git config credential.helper cache
