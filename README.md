@@ -16,7 +16,12 @@ git config credential.helper cache
 
 
 # Reset to a previous commit 
+
  git log
+ 
  git reset --hard <log name> // looks like "da6595a5f0b4bb62c27db74b7a0716bfc1698ca5"
+ 
  git push -f origin <branch name>
+ 
  git pull <remote -alzheimer-> <branch name -sandbox-lazy->
+ 
