@@ -26,7 +26,7 @@ git config credential.helper cache
  git pull <remote -alzheimer-> <branch name -sandbox-lazy->
  
  
- #Saving Changes with Git Stash
+ # Saving Changes with Git Stash
  
  "git stash --help"
  
