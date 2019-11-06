@@ -60,5 +60,16 @@ Just like with pop, we can choose to not specify a stash and it will use the lat
 "git stash apply stash@{1}"
 With apply, we’ll get similar output when applying the stash, but without the message that the stash was dropped. Why? Because git stash apply applies the stash we specified but it doesn’t drop it from the list of stashes.
 
+# Delete a remote GIT branch
+
+To delete a remote branch you can use the following command:
+"git push <remote_name> --delete <branch_name>"
+
+# Delete a Local GIT branch
+To delete the local GIT branch we can try one of the following commands:
+"git branch -d branch_name"
+"git branch -D branch_name"
+
+
  
  
